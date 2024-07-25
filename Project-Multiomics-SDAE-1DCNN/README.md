@@ -1,6 +1,6 @@
-Introduction:
+### Introduction: ###
 This project focus on classify Breast Cancer (BRCA) subtypes using deep learning algorithms. A comparative study on the performance of SDAE and 1D CNN model is done to identify a framework with better performance. Details of the experiments are as shown in the project report.
 
-Findings:
+### Findings: ###
 Both 1D CNN model and SDAE model can perform better after applying SMOTE means while SMOTE can help to improve the model performances by solving the class imbalance problem. However, when comparing the two models, the 1D CNN model generally achieves higher accuracy than the SDAE model, except using the CNV dataset. In this context, the number of selected features could be one of the factors that affect the models’ accuracy since 1D CNN model works better on a reduced feature set of CNV dataset. The best-performed model is 1D CNN using DNA methylation data with the application of SMOTE, achieving an accuracy of 81.19% for the BRCA subtypes classification. Other than that, integrated omics data does not produce the best result. Further studies need to be carried out which focus on the model development and techniques to more effectively manage and utilize integrated omics data for the enhancement of accuracy and reliability of BRCA subtype classification.
 
